@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.sonarsource.parent</groupId>
         <artifactId>parent</artifactId>
-        <version>46</version>
+        <version>54</version>
     </parent>
 
     <groupId>org.sonarqube.l10n.es</groupId>
@@ -47,7 +47,7 @@
         <sonar.pluginClass>org.sonar.plugins.l10n.SpanishPackPlugin</sonar.pluginClass>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!-- Versions of the plugin translated by this language pack -->
-        <sonarqube.version>6.7</sonarqube.version>
+        <sonarqube.version>8.0</sonarqube.version>
         <!-- Versions of the plugin translated by this language pack -->
         <bundle.abacus>0.1</bundle.abacus>
         <bundle.branding>1.0</bundle.branding>
@@ -59,9 +59,9 @@
         <bundle.tabmetrics>1.4</bundle.tabmetrics>
         <bundle.thucydides>0.1</bundle.thucydides>
         <bundle.violationdensity>1.2</bundle.violationdensity>
-        <bundle.web>2.2</bundle.web>
+        <bundle.web>2.6.0.1053</bundle.web>
         <bundle.widgetlab>1.4.1</bundle.widgetlab>
-        <bundle.xml>1.1</bundle.xml>
+        <bundle.xml>2.0.1.2020</bundle.xml>
         <bundle.javascript>2.1</bundle.javascript>
         <bundle.issues-density>1.0</bundle.issues-density>
     </properties>
@@ -153,7 +153,7 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.codehaus.sonar-plugins</groupId>
+            <groupId>org.sonarsource.web</groupId>
             <artifactId>sonar-web-plugin</artifactId>
             <version>${bundle.web}</version>
             <scope>test</scope>
@@ -165,7 +165,7 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.codehaus.sonar-plugins.xml</groupId>
+            <groupId>org.sonarsource.xml</groupId>
             <artifactId>sonar-xml-plugin</artifactId>
             <version>${bundle.xml}</version>
             <scope>test</scope>
